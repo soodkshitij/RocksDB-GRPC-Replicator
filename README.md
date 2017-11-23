@@ -1,8 +1,6 @@
 # RocksDB-GRPC-Replicator
 
-![alt text][logo]
-
-[logo]: https://github.com/soodkshitij/RocksDB-GRPC-Replicator/blob/master/out.gif ""
+<img src="https://github.com/soodkshitij/RocksDB-GRPC-Replicator/blob/master/out.gif"  width="640" height="480" >
 
 
 ### Run Server
