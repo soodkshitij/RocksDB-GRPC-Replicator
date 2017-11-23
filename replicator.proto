@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Request {
+    string key = 1;
+    string value = 2;
+    enum Operation {
+    	PUT = 0;
+    	DELETE = 1;	
+	}
+  	Operation op = 3;
+}
+
+message ReplicationRequest{
+	int32 id = 1;
+}
+
+message Response {
+    bool result = 1;
+}
+
+service Replicator {
+   rpc performOperation(Request) returns (Response) {}
+   rpc replicateOperation(ReplicationRequest) returns(stream Request) {}
+}
