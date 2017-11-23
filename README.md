@@ -1,5 +1,11 @@
 # RocksDB-GRPC-Replicator
 
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/soodkshitij/RocksDB-GRPC-Replicator/blob/master/out.gif ""
+
+
 ### Run Server
 ```bash
 python3 server.py
